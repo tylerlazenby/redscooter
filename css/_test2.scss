@@ -1,20 +1,13 @@
-/*html {
+html {
    height: 100%;
    font-family: Verdana, Geneva, sans-serif;
-   font-size: 12px;
-   background: rgb(132,123,245);
+   font-size: 16px;
 }
-*/
 
 
 body {
-  background: #546792 ;
-  box-shadow: rgb(51, 51, 51) 5px 0px 15px,
-  rgb(51, 51, 51) -5px 0px 15px;
-  margin: 0px auto;
-  min-height: 135%;
-  min-width: 320px;
-  max-width: 1024px;
+  background: #20282b;
+  margin: auto;
   width: 100%;
 }
 
@@ -24,11 +17,6 @@ h1 {
   color: #e5df7a;
   text-align: center;
   font-size: 44px;
-
-}
-h3 {
-  color: black;
-  text-align: center;
 }
 
 
@@ -234,6 +222,9 @@ em{
 /* Desktop */
 
 @media only screen and (min-width: 769px){
+  .hero {
+    padding: 8rem 1rem;
+  }
   /*
    ul.submenu {
       background: transparent;
